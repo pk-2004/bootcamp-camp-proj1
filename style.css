@@ -1,96 +1,24 @@
-@charset "utf-8";
-.text_class {
-    color: #DC6407;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+p{
+    font-size: large;
+    font-style: italic;
 }
-body h1 {
-    color: #29D328;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-align: left;
+p{
+    color: darkblue;
 }
-body h2 {
-    text-align: center;
-    margin-right: 50px;
+body{
+    color: grey;
+    background: gold
 }
-
-#container {
-    width: 1024px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FF6E00;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
+.Header{
+    font-style: italic;
+    color: grey;
 }
-#nav  {
-    width: 1024px;
-    background-color: #A87E7F;
-    padding-left: 100px;
-    padding-right: 100px;
+.subtitle{
+    color: red;
 }
-#text {
-    width: 512px;
-    background-color: #B02527;
-    float: left;
-    height: 552px;
+.content{
+    color: brown;
 }
-body {
-    background-color: #FF6E00;
-}
-
-#image {
-    width: 512px;
-    height: 300px;
-    background-color: #CDE100;
-    float: right;
-}
-#nav ul {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 0px;
-    list-style-type: none;
-}
-#nav a {
-    background-color: #2FBEE6;
-    color: #FFF3F3;
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#nav a:hover {
-    background-color: #0FEEF1;
-}
-#nav ul ul {
-    display: none;
-    position: absolute;
-}
-#nav ul li:hover > ul {
-    display: block;
-}
-#nav ul ul li {
-    float: none;
-}
-#nav li {
-    float: left;
-}
-#img {
-    width: 512px;
-    float: left;
-}
-.content_class {
-    color: #F5F400;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    font-size: 1.32em;
-}
-.h2_class {
-    color: #11D9DC;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+#img{
+    float: center;
 }
