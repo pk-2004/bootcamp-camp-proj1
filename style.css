@@ -1,17 +1,24 @@
 p{
     font-size: large;
     font-style: italic;
+    display: flex;
+    justify-content: center;
 }
 p{
     color: darkblue;
+    display: flex;
+    justify-content: center;
 }
 body{
     color: grey;
     background: gold
+    
 }
 .Header{
     font-style: italic;
     color: grey;
+    display: flex;
+    justify-content: center;
 }
 .subtitle{
     color: red;
@@ -20,5 +27,9 @@ body{
     color: brown;
 }
 #img{
-    float: center;
+    padding-left:36em;
+    display: flex;
+    justify-content: flex-end;
 }
+
+
